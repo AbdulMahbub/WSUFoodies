@@ -1,3 +1,3 @@
 # WSUFoodies
 
-Issa app
+Issa food app
