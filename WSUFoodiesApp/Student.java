@@ -8,13 +8,9 @@ public class User {
     String email;
 
     
-    class Bday {
-        int day;
-        int month;
-        int year;
-    };
+    
 
-    Bday bday;
+    int age;
 
     enum Standing{
         FRESHMAN, SOPHOMORE, JUNIOR, SENIOR, GRADUATE, ALUMNUS, FACULTY
@@ -23,12 +19,12 @@ public class User {
     Standing standing;
 
     //Constructor with birthday given
-    User(String fn, String ln, String pw, String em, Standing s, bday bd){
+    User(String fn, String ln, String pw, String em, Standing s, int bd){
         firstName = fn;
         lastName = ln;
         password = pw;
         email = em;
-        bday = bd;
+        age = bd;
         standing = s;
     }
 
