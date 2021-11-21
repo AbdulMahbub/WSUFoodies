@@ -6,17 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class LoginPage extends AppCompatActivity {
+public class HomePage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.activity_home_page);
     }
 
     public void goMain(View v){
-        startActivity(new Intent(LoginPage.this, ActMain.class));
+        startActivity(new Intent(HomePage.this, ActMain.class));
     }
-
-    public void goHome(View v) { startActivity(new Intent( LoginPage.this, HomePage.class)); }
 }
