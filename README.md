@@ -10,4 +10,4 @@ The WSUFoodies application allows users to **post food locations, review locatio
 users will need a WSUFoodies account and then login with the correct credentials. 
 
 ## How to use
-To use the app simply start up the WSUFoodiesAPI and then run the app. The server can be found at: https://github.com/AbdulMahbub/WSU_Foodies_API
+To use the app simply start up the WSUFoodiesAPI and then run the app. The server can be found at [this repository](https://github.com/AbdulMahbub/WSU_Foodies_API)
