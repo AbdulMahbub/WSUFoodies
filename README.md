@@ -1,4 +1,5 @@
 # WSUFoodies
+A food app aimed towards those new to the Wayne State Campus
 
 ## Story behind the app
 On every college campus, new students/faculy are arriving every semester. These could be freshmen who don't know the area, students transferring from a different
