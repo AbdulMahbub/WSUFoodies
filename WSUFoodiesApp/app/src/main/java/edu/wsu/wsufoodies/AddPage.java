@@ -6,23 +6,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class HomePage extends AppCompatActivity {
+public class AddPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_add_page);
     }
 
     public void goHome(View v){
-        startActivity(new Intent(HomePage.this, HomePage.class));
+        startActivity(new Intent(AddPage.this, HomePage.class));
     }
 
     public void goProfile(View v){
-        startActivity(new Intent(HomePage.this, ProfilePage.class));
+        startActivity(new Intent(AddPage.this, ProfilePage.class));
     }
 
     public void goAdd(View v){
-        startActivity(new Intent(HomePage.this, AddPage.class));
+        startActivity(new Intent(AddPage.this, AddPage.class));
     }
 }

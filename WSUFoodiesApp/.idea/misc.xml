@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/activity_add_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
         <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/activity_login_page.xml" value="0.2957427536231884" />
+        <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/activity_profile_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/activity_registration_page.xml" value="0.2957427536231884" />
+        <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/School/WSUApp/WSUFoodies-main/WSUFoodiesApp/app/src/main/res/layout/laymain.xml" value="0.2957427536231884" />
       </map>
     </option>
