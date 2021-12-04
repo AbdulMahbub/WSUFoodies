@@ -9,5 +9,5 @@ school, or a college professor starting a new job. Since they don't know the loc
 The WSUFoodies application allows users to post food locations, review locations, and rate locations. To access these features
 users will need a WSUFoodies account and then login with the correct credentials. 
 
-#How to use
-To use the app simply start up the server and then run the app. The server can be found at: https://github.com/AbdulMahbub/WSU_Foodies_API
+## How to use
+To use the app simply start up the WSUFoodiesAPI and then run the app. The server can be found at: https://github.com/AbdulMahbub/WSU_Foodies_API
