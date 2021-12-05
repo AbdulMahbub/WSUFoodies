@@ -17,4 +17,6 @@ public class LoginPage extends AppCompatActivity {
     public void goMain(View v){
         startActivity(new Intent(LoginPage.this, ActMain.class));
     }
+
+    public void goHome(View v) { startActivity(new Intent( LoginPage.this, HomePage.class)); }
 }
