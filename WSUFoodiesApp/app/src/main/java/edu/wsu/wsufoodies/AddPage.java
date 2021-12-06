@@ -8,21 +8,34 @@ import android.view.View;
 
 public class AddPage extends AppCompatActivity {
 
+    String userName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_page);
+
+        // Retrieve name from successful login
+        userName= getIntent().getStringExtra("fullName");
     }
 
     public void goHome(View v){
-        startActivity(new Intent(AddPage.this, HomePage.class));
+        String name = userName;
+        Intent myIntent = new Intent(AddPage.this, HomePage.class);
+        myIntent.putExtra("fullName", name);
+        startActivity(myIntent);
     }
 
     public void goProfile(View v){
-        startActivity(new Intent(AddPage.this, ProfilePage.class));
+        String name = userName;
+        Intent myIntent = new Intent(AddPage.this, ProfilePage.class);
+        myIntent.putExtra("fullName", name);
+        startActivity(myIntent);
     }
 
     public void goAdd(View v){
-        startActivity(new Intent(AddPage.this, AddPage.class));
+        String name = userName;
+        Intent myIntent = new Intent(AddPage.this, AddPage.class);
+        myIntent.putExtra("fullName", name);
+        startActivity(myIntent);
     }
 }

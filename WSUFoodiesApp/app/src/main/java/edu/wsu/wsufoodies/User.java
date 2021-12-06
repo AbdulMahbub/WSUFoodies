@@ -1,3 +1,5 @@
+package edu.wsu.wsufoodies;
+
 public class User {
 
     String firstName;
@@ -61,15 +63,6 @@ public class User {
 
     void setLastName(String l){
         lastName = l;
-    }
-
-    boolean newPassword(String old, String n){
-        if (old == password){
-            password = n;
-            return true;
-        }
-        return false;
-            
     }
 
     void setEmail(String e){

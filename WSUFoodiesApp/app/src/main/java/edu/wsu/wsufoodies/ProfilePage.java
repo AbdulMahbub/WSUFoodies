@@ -8,22 +8,35 @@ import android.view.View;
 
 public class ProfilePage extends AppCompatActivity {
 
+    String userName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page);
+
+        // Retrieve name from successful login
+        userName= getIntent().getStringExtra("fullName");
     }
 
     public void goHome(View v){
-        startActivity(new Intent(ProfilePage.this, HomePage.class));
+        String name = userName;
+        Intent myIntent = new Intent(ProfilePage.this, HomePage.class);
+        myIntent.putExtra("fullName", name);
+        startActivity(myIntent);
     }
 
     public void goProfile(View v){
-        startActivity(new Intent(ProfilePage.this, ProfilePage.class));
+        String name = userName;
+        Intent myIntent = new Intent(ProfilePage.this, ProfilePage.class);
+        myIntent.putExtra("fullName", name);
+        startActivity(myIntent);
     }
 
     public void goAdd(View v){
-        startActivity(new Intent(ProfilePage.this, AddPage.class));
+        String name = userName;
+        Intent myIntent = new Intent(ProfilePage.this, AddPage.class);
+        myIntent.putExtra("fullName", name);
+        startActivity(myIntent);
     }
 
     public void goMain(View v){
