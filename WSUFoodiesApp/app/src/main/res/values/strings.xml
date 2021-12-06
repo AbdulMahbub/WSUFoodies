@@ -9,4 +9,14 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="userStandings">
+        <item>FRESHMAN</item>
+        <item>SOPHOMORE</item>
+        <item>JUNIOR</item>
+        <item>SENIOR</item>
+        <item>GRADUATE</item>
+        <item>ALUMNUS</item>
+        <item>FACULTY</item>
+    </string-array>
 </resources>
