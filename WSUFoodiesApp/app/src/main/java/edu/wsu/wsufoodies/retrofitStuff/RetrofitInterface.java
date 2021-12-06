@@ -13,5 +13,7 @@ public interface RetrofitInterface {
     Call<LoginResult> executeLogin(@Body HashMap<String, String> map);
 
     @POST("/addUser")
-    Call<Void> executeRegister(@Body HashMap<String, String> map);
+    default Call<Void> executeRegister(@Body edu.wsu.wsufoodies.User u) {
+        return null;
+    }
 }
