@@ -30,8 +30,6 @@ public class LoginPage extends AppCompatActivity {
     private RetrofitInterface retrofitInterface;
     private String BASE_URL="http://10.0.2.2:980";  // url to work w API
 
-
-
     EditText emailBox;
     EditText passwordBox;
 
