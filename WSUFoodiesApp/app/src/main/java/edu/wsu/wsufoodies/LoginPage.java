@@ -72,6 +72,7 @@ public class LoginPage extends AppCompatActivity {
                 {
                     handleLogin(view);
                 }
+                
             }
         });
     }
