@@ -18,10 +18,10 @@ jobs:
 
       - name: Run Tests
         run: |
-             cd WSUFoodiesApp
-             ./gradlew test
+          cd WSUFoodiesApp
+          ./gradlew test
 
       - name: Build Project
         run: |
-             cd WSUFoodiesApp
-             ./gradlew assemble
+          cd WSUFoodiesApp
+          ./gradlew assemble
